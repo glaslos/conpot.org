@@ -1,0 +1,29 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin-top: 50px;
+    height: 100%;
+    color: #ffffff;
+}
+
+.fluid-container {
+    height: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(../images/mine_bw1.jpg) no-repeat bottom center fixed #000000;
+    background-size: 50%;
+
+}
+
+.page-link {
+    position:relative;
+    top:-50px;
+}
+
+.navbar-conpot {
+    background-color: #000000;
+}
