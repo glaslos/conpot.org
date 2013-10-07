@@ -14,7 +14,7 @@ def server_static(filepath):
     return static_file(filepath, root='./static')
 
 @app.route('/', method=["GET"])
-def memory_page():
+def root_page():
     template = template_env.get_template('index.html')
     return template.render()
 
