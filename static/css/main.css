@@ -10,13 +10,29 @@ body {
 
 .fluid-container {
     height: 100%;
+    padding-top: 20px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.intro_page {
     background: url(../images/mine_bw1.jpg) no-repeat bottom center fixed #000000;
     background-size: 50%;
+}
 
+.dev_page {
+    background: #000000;
+}
+
+.team_page {
+    background: #000000;
+}
+
+.team-name {
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .page-link {
