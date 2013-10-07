@@ -12,14 +12,14 @@ body {
     height: 100%;
     padding-top: 20px;
     padding-left: 15px;
-    padding-right: 15px;
+    padding-right: 30px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .intro_page {
     background: url(../images/mine_bw1.jpg) no-repeat bottom center fixed #000000;
-    background-size: 50%;
+    background-size: 40%;
 }
 
 .dev_page {
