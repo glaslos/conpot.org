@@ -4,7 +4,6 @@ from bottle import Bottle, static_file
 from jinja2 import Environment, FileSystemLoader
 
 
-bottle.debug(True)
 app = Bottle()
 template_env = Environment(loader=FileSystemLoader("./templates"))
 
